@@ -1,0 +1,21 @@
+.center_all{
+        display: flex;
+        justify-content: center;
+        place-content: center;
+        gap: 3vw;
+    }
+
+@media (prefers-color-scheme:light){
+    body{
+        color:black;
+        background-color: white;
+    }
+}
+
+@media (prefers-color-scheme:dark){
+    body{
+        color: white;
+        background-color: rgb(13, 12, 12);
+
+    }
+}
