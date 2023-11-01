@@ -4,18 +4,37 @@
         place-content: center;
         gap: 3vw;
     }
-
+    .justify_around{
+        display: flex;
+        justify-content: space-around;
+    }
 @media (prefers-color-scheme:light){
     body{
         color:black;
         background-color: white;
     }
 }
-
 @media (prefers-color-scheme:dark){
     body{
         color: white;
         background-color: rgb(13, 12, 12);
 
-    }
+    }    
+}
+.flex_row{
+    display: flex;
+    flex-direction: row;
+}
+.width_max{
+    width: '100%';
+}
+.container{
+    display: inline-flexbox;
+    flex-wrap: wrap;
+}
+.txt_lime_green{
+    color: green;
+}
+.txt_large{
+    font-size: 3vw;
 }
